@@ -4,3 +4,9 @@
 [submodule "Tools/SigDigger"]
 	path = Tools/SigDigger
 	url = https://github.com/BatchDrake/SigDigger
+[submodule "PHY/tools/SigDigger"]
+	path = PHY/tools/SigDigger
+	url = git@github.com:BatchDrake/SigDigger.git
+[submodule "PHY/tools/AmateurDSN"]
+	path = PHY/tools/AmateurDSN
+	url = https://github.com/BatchDrake/AmateurDSN
