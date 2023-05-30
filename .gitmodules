@@ -1,0 +1,6 @@
+[submodule "Tools/ccsds-tc"]
+	path = Tools/ccsds-tc
+	url = https://github.com/BatchDrake/ccsds-tc
+[submodule "Tools/SigDigger"]
+	path = Tools/SigDigger
+	url = https://github.com/BatchDrake/SigDigger
