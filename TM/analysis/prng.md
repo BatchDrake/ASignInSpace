@@ -3,7 +3,7 @@ The PRNG noise of the idle frames was extracted with the [deencap](../tools/deen
 
 ```
 $ gcc deencap.c -o deencap
-$  ./deencap frames.bin 7 | head                                 
+$  ./deencap frames.bin 7                         
 6591 frames
 (xxx) FIRST FRAME
 ENCAP FILE CREATED: encap_001.bin
