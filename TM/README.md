@@ -44,4 +44,4 @@ The resulting image looked like follows:
 
 <img src="visual/framebegin.png" align="center"  />
 
-Further analysis on the repeating patterns showed that they were actually [CCSDS TM Data Link frames](doc/132x0b3.pdf) with a 6-byte primary header, no secondary header, 6-byte trailer with a CRC. Two virtual channel IDs were in use along this capture: Virtual Channel 0 (containing encapsulated data of the upper layer) and Virtual Channel 7 (idle data produced from a featureless PRNG noise, [with a polynomial that is not what the specification rcommends](analysis/prng.md)).
+Further analysis on the repeating patterns showed that they were actually [CCSDS TM Data Link frames](doc/132x0b3.pdf) with a 6-byte primary header, no secondary header, 6-byte trailer with a CRC. Two virtual channel IDs were in use along this capture: Virtual Channel 0 (containing encapsulated data of the upper layer) and Virtual Channel 7 (idle data produced from a featureless PRNG noise, [with a polynomial that is not what the specification recommends](analysis/prng.md)).
