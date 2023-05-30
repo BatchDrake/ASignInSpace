@@ -5,7 +5,7 @@ This repository intends to be a centralized place and primary reference for docu
 The provided signal recording can be seen as an onion with multiple layers of encoding (and not encryption). We had to decode the lowest-level ones in order to get to arrive to the top-level ones. The analysis of signal recording is therefore structured in directories, according to the layers we are referring to. Bottom-up, these directories are:
 
 * [**PHY**](PHY/): Analysis of the physical layer (from raw signal samples to demodulated symbols)
-* [**AOS**](AOS/): Analysis of the CCSDS AOS TM Data Link frames (MAC layer)
+* [**TM**](TM/): Analysis of the CCSDS TM Data Link frames (MAC layer)
 * [**SPP**](SPP/): Analysis of the CCSDS Space Packets protocol (transport layer)
 * [**APID_Streams**](APID_Streams/): Analysis of the contents of the application layer encapsulated by the space packets, in a per APID basis.
 
