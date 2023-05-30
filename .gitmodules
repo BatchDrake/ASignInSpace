@@ -10,3 +10,9 @@
 [submodule "PHY/tools/AmateurDSN"]
 	path = PHY/tools/AmateurDSN
 	url = https://github.com/BatchDrake/AmateurDSN
+[submodule "TM/tools/ccsds-tc"]
+	path = TM/tools/ccsds-tc
+	url = git@github.com:BatchDrake/ccsds-tc.git
+[submodule "TM/tools/lfsrcrack"]
+	path = TM/tools/lfsrcrack
+	url = git@github.com:BatchDrake/lfsrcrack.git
