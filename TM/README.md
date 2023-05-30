@@ -17,7 +17,7 @@ Candidate CCSDS turbocode found
 After calling `ccsds-tool` again with the 1/2 code-rate, we managed to obtain a [frames.bin](artifacts/frames.bin) file, containing all the successfully decoded turbo-code blocks. The validity of the decodification is verified against the block's CRC.
 
 ```
-$  ccsds-tool -r 1/2 -f channel-capture-PM-52639-baud-0001.raw -S 15 > /dev/null
+$  ccsds-tool -r 1/2 -f channel-capture-PM-52639-baud-0001.raw -S 15 > frames.bin
 CCSDS tool v0.1 for the Amateur DSN by EA1IYR
 (c) 2021 Gonzalo J. Carracedo - https://actinid.org
   Code rate:       1/2
@@ -44,4 +44,4 @@ The resulting image looked like follows:
 
 <img src="visual/framebegin.png" align="center"  />
 
-Further analysis on the repeating patterns showed that they were actually [CCSDS TM Data Link frames](doc/132x0b3.pdf) with a 6-byte primary header, no secondary header, 6-byte trailer with a CRC. Two virtual channel IDs were in use along this capture: Virtual Channel 0 (containing encapsulated data of the upper layer) and Virtual Channel 7 (idle data produced from a featureless PRNG noise, [with a polynomial that is not what the specification rcommends](analysis/prng.md)).
+Further analysis on the repeating patterns showed that they were actually [CCSDS TM Data Link frames](doc/132x0b3.pdf) with a 6-byte primary header, no secondary header, 6-byte trailer with a CRC. Two virtual channel IDs were in use along this capture: Virtual Channel 0 (containing encapsulated data of the upper layer) and Virtual Channel 7 (idle data produced from a featureless PRNG noise, [with a polynomial that is not what the specification recommends](analysis/prng.md)).
