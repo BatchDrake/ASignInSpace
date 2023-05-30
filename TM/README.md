@@ -17,7 +17,7 @@ Candidate CCSDS turbocode found
 After calling `ccsds-tool` again with the 1/2 code-rate, we managed to obtain a [frames.bin](artifacts/frames.bin) file, containing all the successfully decoded turbo-code blocks. The validity of the decodification is verified against the block's CRC.
 
 ```
-$  ccsds-tool -r 1/2 -f channel-capture-PM-52639-baud-0001.raw -S 15 > /dev/null
+$  ccsds-tool -r 1/2 -f channel-capture-PM-52639-baud-0001.raw -S 15 > frames.bin
 CCSDS tool v0.1 for the Amateur DSN by EA1IYR
 (c) 2021 Gonzalo J. Carracedo - https://actinid.org
   Code rate:       1/2
