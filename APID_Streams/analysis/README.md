@@ -1,5 +1,5 @@
 # The Deep Dive into APID 0x17
-This document details our path from the complete dump of Space Packet Protocol (SPP) packets to focusing on APID 0x17, and finally identifying the specific message payload within it, forms the crux of this narrative.
+This document details our path from the complete dump of Space Packet Protocol (SPP) packets to focusing on APID 0x17, and finally identifying the specific message payload within it, which forms the crux of this narrative.
 
 ## 1. Initial APID Stream Separation
 Our journey began with an extensive dump of SPP packets, derived from the TM data frames. We parsed the SPP headers, including the timestamps (detailing of which would be expanded later - #TODO), which, along with the last two bytes identified as a Cyclic Redundancy Check (CRC), helped us to define the boundaries of the headers and footers. Thus, we could create separate streams for each APID, enabling a targeted analysis.
