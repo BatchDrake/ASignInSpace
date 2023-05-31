@@ -44,3 +44,5 @@ SPP [3297] -> APID 0163 S (size =   224) : 10 03 19 00 0d 88 80 d4 cc cd 00 00 0
 ```
 
 From the output, the number in brackets determines the sequence number. The column after the APID number is marked with an `S` if a secondary header is present and with a `.` if it is not. The resulting [APID files](artifacts/APID) are the raw byte stream contained in the space packets of each APID, and are ready to be used as input of the next analysis step.
+
+For further details about how APID streams were analyzed and filtered for likely message content, etc., including idnetification and cleaning of a strong message candidate, please see [The Deep Dive into APID 0x17](./analysis/).
