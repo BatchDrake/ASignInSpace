@@ -3,7 +3,7 @@ We performed the analysis of the physical layer on the Green Bank Telescope (GBT
 
 <img src="visual/gbt.png" align="center" />
 
-The analysis of the signal was done with [SigDigger](https://github.com/BatchDrake/SigDigger), along with the [AmateurDSN plugin](https://github.com/BatchDrake/AmateurDSN). While the amplitude is fairly stable, the whole signal is affected by Doppler drifts (caused by the TGO orbiting around Mars) up to -76 Hz/s and ground station lock commands. This was determined by locking a [PLL with a 64 Hz cut-off on a 6.5 kHz channel around the residual carrier](visual/drift.png).  In order to improve the reception and keep the subcarrier more or less in the same place in the spectrum, a fixed order-1 Doppler correction of approximately +76 Hz/s was applied to the full-rate (1 Msps) signal:
+The analysis of the signal was done with [SigDigger](https://github.com/BatchDrake/SigDigger), along with the [AmateurDSN plugin](https://github.com/BatchDrake/AmateurDSN). While the amplitude is fairly stable, the whole signal is affected by Doppler drifts (caused by the TGO orbiting around Mars) up to -76 Hz/s and ground station lock commands. This was determined by locking a [PLL with a 64 Hz cut-off on a 6.5 kHz channel around the residual carrier](visual/drift.png).  In order to improve the reception and keep the subcarrier more or less in the same place in the spectrum, a fixed order-1 Doppler correction of approximately -76 Hz/s was applied to the full-rate (1 Msps) signal:
 
 <img src="visual/driftplot.png" align="center" />
 
