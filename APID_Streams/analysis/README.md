@@ -1,5 +1,5 @@
 # The Deep Dive into APID 0x17
-This document details the journey of decoding a simulated alien signal sent using the ExoMars TGO satellite. The signal data was provided to the public in the form of raw radio IQ data captured by several of the largest radio telescopes. Our path from the complete dump of Space Packet Protocol (SPP) packets to focusing on APID 0x17, and finally understanding the specific message payload within it, forms the crux of this narrative.
+This document details our path from the complete dump of Space Packet Protocol (SPP) packets to focusing on APID 0x17, and finally understanding the specific message payload within it, forms the crux of this narrative.
 
 ## 1. Initial APID Stream Separation
 Our journey began with an extensive dump of SPP packets, derived from the TM data frames. We parsed the SPP headers, including the timestamps (detailing of which would be expanded later - #TODO), which, along with the last two bytes identified as a Cyclic Redundancy Check (CRC), helped us to define the boundaries of the headers and footers. Thus, we could create separate streams for each APID, enabling a targeted analysis.
