@@ -1,1 +1,2 @@
-TODO
+* **[frames2stamped_packets.c](frames2stamped_packets.c)**: Open the `frames.bin` file and produce `spp_sc_xxx.bin` files. These files are identical in concept to the `encap_xxx.bin` files, except that the packets are prefixed by a local endian `uint64_t` containing the byte offset inside the `frames.bin` in which the packet was found.
+* **[sppextract-samplecount.c](sppextract-samplecount.c)**: identical in usage to `sppextract-csv.c`, except that this one takes the `spp_sc_xxx.bin` and prepends a column indicating the `frames.bin` offset at which the packet was found.
