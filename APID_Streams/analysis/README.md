@@ -1,5 +1,6 @@
 # The Deep Dive into APID 0x17
 This document details our path from the complete dump of Space Packet Protocol (SPP) packets to focusing on APID 0x17, and finally identifying the specific message payload within it, which forms the crux of this narrative.
+TL;DR: Go [here](../../Candidates/artifacts) to download the message candidate artifacts.
 
 ## 1. Initial APID Stream Separation
 Our journey began with an extensive dump of SPP packets, derived from the TM data frames. We parsed the SPP headers, including the timestamps (detailing of which would be expanded later - #TODO), which, along with the last two bytes identified as a Cyclic Redundancy Check (CRC), helped us to define the boundaries of the headers and footers. Thus, we could create separate streams for each APID, enabling a targeted analysis.
@@ -41,3 +42,5 @@ Three 0x12 packets are of type-subtype 0101, 0103, 0107, respectively, which, ac
 With the PUS header and checksum removed, the only remaining content in the 0x17 packets is the payload, 4 bytes for the short packets and 8 bytes for the long packets.
 
 The specific interpretation of the payload is currently a subject of speculation and beyond the scope of this document. Our next steps will be to further understand the potential meaning of the chosen order of short vs long packets, and to continue interpreting the payload within APID 0x17.
+
+To download various representations of this extracted payload data, see [artifacts](../../Candidates/artifacts).
