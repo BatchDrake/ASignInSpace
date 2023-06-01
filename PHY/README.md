@@ -1,5 +1,5 @@
 # Physical layer (PHY)
-We performed the analysis of the physical layer on the Green Bank Telescope (GBT) capture, as it was the one with the highest signal-to-noise (SNR) ratio. While the full name of the modulation is probably ["RESIDUAL CARRIER, PCM / PSK / PM-SQUAREWAVE"](srce.png) (thanks to scre for pointing this out), in practice it consists of two identical, symmetrical BPSK subcarriers around the residual carrier, transmitting the exact amount of information.
+We performed the analysis of the physical layer on the Green Bank Telescope (GBT) capture, as it was the one with the highest signal-to-noise (SNR) ratio. While the full name of the modulation is probably ["RESIDUAL CARRIER, PCM / PSK / PM-SQUAREWAVE"](visual/srce.png) (thanks to scre for pointing this out), in practice it consists of two identical, symmetrical BPSK subcarriers around the residual carrier, transmitting the exact amount of information.
 
 <img src="visual/gbt.png" align="center" />
 
