@@ -29,4 +29,6 @@ Nonetheless, other interesting repeating structures appear at longer periods:
 
 The full correlation plot makes it tempting to display the bits as an image with 1 bit per pixel, 256 pixels per row. This would result in an image of 65536/256 = 256 bits in height. If we do that, from left to right, top-down, bits 0 in black, bits 1 in white, we arrive to the following picture:
 
-<center><img src="../../Candidates/visual/original_square.png" align="center" /></center>
+<p align="center"><img src="../../Candidates/visual/original_square.png" align="center" /></p>
+
+Note that, while this picture seems to have the same degree of detail in all directions, **we should not discard other orderings of the bits**.
