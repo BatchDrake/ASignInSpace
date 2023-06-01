@@ -1,4 +1,11 @@
 # Our First Candidate Message
+
+
+> **PLEASE NOTE:** The A Sign In Space Team confirmed that **we successfully extracted the message from the radio signal.** See [Daniela de Paulis' tweet](https://twitter.com/danieladepaulis/status/1664251594064494595) on the achievement. The message can be downloaded [in raw binary form (MSB first)](artifacts/data17.bin) and [plain text bits (ones and zeroes)](artifacts/data17.txt). Browse the [artifacts folder](artifacts) for additional representations. 
+>
+> Discussion on the interpretation of the message can be found in the **[The_Message](../The_Message)** folder.
+
+
 This document provides a non-technical summary of how we arrived at a candidate for the simulated alien message. For a detailed technical journey, you may want to read [The Deep Dive into APID 0x17](../APID_Streams/analysis/README.md).
 
 ## What do we mean by "Candidate"?
@@ -13,7 +20,7 @@ Binary data can also be represented in a more compact form using the hexadecimal
 The artifacts are cleaned-up versions of the candidate message payload data, processed for easier analysis. They are provided as binary (*.bin) and CSV files containing hex data. You can find these artifacts in the [artifacts](./artifacts/) directory. They offer different perspectives of the message payload, each with their own purpose and representation, details of which are covered extensively in the artifacts directory.
 
 ## Interpreting the Artifacts
-The next step involves interpreting these artifacts. The concept of alignment is crucial here as it involves choosing how to arrange or divide the binary data. There are countless ways to do this. You might treat the raw data as rows of 256 bytes (provided, for the choice of 256-byte alignment specifically, you adjust for a discrepancy of 20 bytes for full payload), or divide it into several files of X bytes each. Alternatively, you could treat the data as a grid with a variable number of columns (e.g. by splitting at every packet/payload of 4 or 8 bytes as they were sent in the short or long packets), or consider different byte alignments (such as 16-bit or 32-bit). Perhaps you might even find some meaningful pattern when viewing the data in a spiral layout.
+The next step involves interpreting these artifacts. The concept of alignment is crucial here as it involves choosing how to arrange or divide the binary data. There are countless ways to do this. You might treat the raw data as rows of 256 bits (provided, for the choice of 256-bits alignment specifically, you adjust for a discrepancy of 20 bytes for full payload), or divide it into several files of X bytes each. Alternatively, you could treat the data as a grid with a variable number of columns (e.g. by splitting at every packet/payload of 4 or 8 bytes as they were sent in the short or long packets), or consider different byte alignments (such as 16-bit or 32-bit). Perhaps you might even find some meaningful pattern when viewing the data in a spiral layout.
 
 This interpretation aims to derive meaning from the message and understand the potential significance of its various aspects, such as the chosen order of short vs long packets.
 

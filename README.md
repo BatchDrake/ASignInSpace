@@ -12,7 +12,8 @@ The provided signal recording can be seen as an onion with multiple layers of en
 Additionally, the following directories are also included:
 
 * [**Meta**](Meta/): Other ancillary information, like time analysis 
-* [**Candidates**](Candidates/): **Actual first-contact message candidates**.
+* [**Candidates**](Candidates/): First-contact message candidates.
+* [**The_Message**](The_Message/): **Interpretation of the embedded message**.
 
 The layer directories have the following subdirectory structure:
 
