@@ -13,5 +13,6 @@ Since the picture representation of the data was the one that raised more intere
 
 ### Picture based interpretations
 * **[monarchofdhadow's interpretation](analysis/monarchofshadow.md)**
+* **[BatchDrake's analysis on the pattern properties](analysis/batchdrake.md)**
 ### Non-picture based interpretations
 * TBD
