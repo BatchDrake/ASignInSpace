@@ -12,7 +12,7 @@ This folder attempts to be a compendium of all the theories on the meaning of th
 Since the picture representation of the data was the one that raised more interest and may bias the interpretation in the wrong direction, the following list is divided in picture-based and non-picture-based interpretations. **If your interpretation is missing, do not hesitate and send us a pull request with the changes or contact us directly in the Discord channel (HaileyStorm or BatchDrake)**.
 
 ### Picture based interpretations
-* **[monarchofdhadow's interpretation](analysis/monarchofshadow.md)**
+* **[monarchofshadow's interpretation](analysis/monarchofshadow.md)**
 * **[BatchDrake's analysis on the pattern properties](analysis/batchdrake.md)**
 ### Non-picture based interpretations
 * TBD
