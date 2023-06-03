@@ -6,7 +6,7 @@ The candidate message was transmitted within a total of 1800 packets which conta
 Below, we describe each artifact by file name and explain its relevance.
 
 ## Binary Files
-data17.bin: This is the complete message payload. It represents the raw binary form of the candidate message, extracted from the transmission data.
+**[data17.bin](data17.bin)** ([in plain text too](data17.txt)): This is the complete message payload. It represents the raw binary form of the candidate message, extracted from the transmission data.
 
 data17_short.bin, data17_long.bin: These files contain the payload separated into two files based on payload/packet size: one for 4-byte payloads (short) and one for 8-byte payloads (long). This separation might be significant and could reveal patterns not readily observable in the combined data.
 
