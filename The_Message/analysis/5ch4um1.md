@@ -22,13 +22,13 @@ Now, back to the curves. That's what they can look like:
 
 (You already knew that because you watched the 3b1b video, that's good.)
 
-I thought it might be a good idea to write different scripts that do one thing each, so I first copied a script that would create the points of the curve,
-and then write those points to a text file.
-The next script, print.pl, could be used for other things as well, just as a side note.
+I thought it might be a good idea to write different scripts that each would do one thing well, and use text as input and output, because text appears to be a universal interface.
+So I first wrote/copied a script named hilbertpoints.pl that would create the points of the curve,and then write those points to a text file.
+The next script, print.pl, could be used for other things as well, just as a side note. (There are comments at the beginning of each script that explain their usage)
 It takes coordinates as input, and contains the 256x256 starmap image as a hardcoded 2d array.
 Give it x and y coordinates, and it tells you if the point is a 0 or a 1.
 The (pseudo-)Hilbert curve I created would cross each point in the square.
-I wrote these resulting points to another file. Then I wrote (mostly copied together that is) another little Perl script,
+I wrote these resulting points to another file. Then I wrote (mostly copied together that is) another Perl script named convert.pl,
 which would take  8 bit bitstrings with a "0b" prefix as input, and convert them to decimal, octal, and hexadecimal, and write the binary data to a file.
 The resulting image would look as follows:
 ![junk](https://github.com/5ch4um1/ASignInSpace/assets/36307725/8e51d38c-7a37-44a2-9e78-6e28553b8739)
@@ -43,7 +43,7 @@ https://github.com/5ch4um1/ASignInSpace/assets/36307725/69583f75-3dcd-4452-83f0-
 
 This might demonstrate a further interesting property of space filling curves.
 
-The screenshots that were used to create those videos were created using the following command:
+The screenshots that were used to create those videos were created using the following command, with the files, in this example "starpoints", containing one point per line:
 
 ```for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1;scrot -u; done | egrep --color=always  " |1"```
 
@@ -52,7 +52,7 @@ The screenshots that were used to create those videos were created using the fol
 
 You might "watch them frame by frame" so to say, with the following command:
 
-```for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1; done | egrep --color=always  " |1" | less -r``` 
+```for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n"; done | egrep --color=always  " |1" | less -r``` 
 
 
 My current theories about the meaning do need further research and this document will be updated soon.
