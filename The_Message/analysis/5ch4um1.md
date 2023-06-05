@@ -17,8 +17,11 @@ The program he describes of course sounded interesting, so I decided to try and 
 As a side note, I'm far from an expert in Perl, or programming for that matter, in fact I started using Perl only a few weeks ago.
 But as a side note, its creator Larry Wall, happens to be a linguist, and I'd say you can notice while using it.
 Now, back to the curves. That's what they can look like:
-<img src="../visual/hilbertcurve.png" align="center" />
+
+![hilbert](https://github.com/5ch4um1/ASignInSpace/assets/36307725/e3b364db-e13b-4602-9627-332f8eadb730)
+
 (You already knew that because you watched the 3b1b video, that's good.)
+
 I thought it might be a good idea to write different scripts that do one thing each, so I first copied a script that would create the points of the curve,
 and then write those points to a text file.
 The next script, print.pl, could be used for other things as well, just as a side note.
@@ -38,8 +41,13 @@ This might demonstrate a further interesting property of space filling curves.
 
 The screenshots that were used to create those videos were created using the following command:
 ```$ for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1;scrot -u; done | egrep --color=always  " |1"```
+
 (Keep in mind that this will write a lot of screenshots to your current working directory)
+
+
 You might "watch them frame by frame" so to say, with the following command:
+
 ```for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1; done | egrep --color=always  " |1" | less -r``` 
+
 
 My current theories about the meaning do need further research and this document will be updated soon.
