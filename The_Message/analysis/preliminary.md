@@ -32,3 +32,17 @@ The full correlation plot makes it tempting to display the bits as an image with
 <p align="center"><img src="../../Candidates/visual/original_square.png" align="center" /></p>
 
 Note that, while this picture seems to have the same degree of detail in all directions, **we should not discard other orderings of the bits**.
+
+It is also interesting to note that there seems to be no preferred position distribution of ones when bits are grouped that may indicate possible grouping of bits and/or endianness.
+
+Position distribution of ones when bits are grouped in pairs:
+<img src="../visual/position_distribution_2.jpg" align="center" />
+
+Position distribution of ones when bits are in 4 bit groups:
+<img src="../visual/position_distribution_4.jpg" align="center" />
+
+Position distribution of ones when bits are in 6 bit groups:
+<img src="../visual/position_distribution_6.jpg" align="center" />
+
+Position distribution of ones when bits are in 8 bit groups:
+<img src="../visual/position_distribution_8.jpg" align="center" />
