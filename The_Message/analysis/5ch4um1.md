@@ -40,7 +40,8 @@ https://github.com/5ch4um1/ASignInSpace/assets/36307725/69583f75-3dcd-4452-83f0-
 This might demonstrate a further interesting property of space filling curves.
 
 The screenshots that were used to create those videos were created using the following command:
-```$ for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1;scrot -u; done | egrep --color=always  " |1"```
+
+```for i in $(seq 256 512); do cat ~/starpoints | xargs -n $i | tr -d " "| tr "0" " "; echo -e "$i\n";sleep 1;scrot -u; done | egrep --color=always  " |1"```
 
 (Keep in mind that this will write a lot of screenshots to your current working directory)
 
