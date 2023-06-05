@@ -23,7 +23,7 @@ Since the picture representation of the data was the one that raised more intere
 
 ### Non-picture based interpretations
 * **[TheVoroscope's theory on timing sub-structure](https://discord.com/channels/1066055437457297469/1114029303341006849/1114029308286079047)**
-* **[Serial protocol by xenoisx](https://discord.com/channels/1066055437457297469/1115209108245717032)
+* **[Serial protocol by xenoisx](https://discord.com/channels/1066055437457297469/1115209108245717032)**
 
 ### Other
 * **[TheVoroscope's Back to Basics (what's going on?)](https://discord.com/channels/1066055437457297469/1114409536598581298/1114409540360867891)**
