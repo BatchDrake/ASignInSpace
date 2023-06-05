@@ -14,8 +14,8 @@ space filling curves, I thought it would be a good idea to also check Youtube.
 There i found a video by 3Blue1Brown, a very popular maths channel.
 I won't link that video here, you should be able to find it easily.
 The program he describes of course sounded interesting, so I decided to try and write it in Perl.
-As a side note, I'm far from an expert in Perl, or programming for that matter, in fact I started using Perl only a few weeks ago.
-But as a side note, its creator Larry Wall, happens to be a linguist, and I'd say you can notice while using it.
+I'm far from an expert in Perl, or programming for that matter, in fact I started using Perl only a few weeks ago.
+But as a side note, its creator Larry Wall, happens to be a linguist, and I'd say you can notice that while using it.
 Now, back to the curves. That's what they can look like:
 
 ![hilbert](https://github.com/5ch4um1/ASignInSpace/assets/36307725/e3b364db-e13b-4602-9627-332f8eadb730)
