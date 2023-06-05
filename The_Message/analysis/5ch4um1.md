@@ -34,9 +34,13 @@ The resulting image would look as follows:
 ![junk](https://github.com/5ch4um1/ASignInSpace/assets/36307725/8e51d38c-7a37-44a2-9e78-6e28553b8739)
 
 Visualizing different permutations of the resulting bitmap yielded interesting patterns, all of which would seem to preserve a general structure.
+
 https://github.com/5ch4um1/ASignInSpace/assets/36307725/4256c9c2-f201-4ede-a1ff-311df9392713
+
 And here for comparison the same for the original image data:
+
 https://github.com/5ch4um1/ASignInSpace/assets/36307725/69583f75-3dcd-4452-83f0-f53bd59c98f9
+
 This might demonstrate a further interesting property of space filling curves.
 
 The screenshots that were used to create those videos were created using the following command:
