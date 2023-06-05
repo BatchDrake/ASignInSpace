@@ -14,5 +14,19 @@ Since the picture representation of the data was the one that raised more intere
 ### Picture based interpretations
 * **[monarchofshadow's interpretation](analysis/monarchofshadow.md)**
 * **[BatchDrake's analysis on the pattern properties](analysis/batchdrake.md)**
+* **[100th aniversary of the birth of Itali Calvino, by OGIANF](https://discord.com/channels/1066055437457297469/1111404329694400542/1114553195214143561)**
+* **[5ch4um1's Space Filling curves](https://discord.com/channels/1066055437457297469/1111404329694400542/1114292492431528026)**
+* **[OGIANF's Excel Message Map](https://discord.com/channels/1066055437457297469/1111404329694400542/1114164437973205074)** (See also [this message](https://discord.com/channels/1066055437457297469/1111404329694400542/1114553195214143561), and [this](https://discord.com/channels/1066055437457297469/1114553195214143561/1114930547102318662), and [the latest version of the Excel file](https://discord.com/channels/1066055437457297469/1114553195214143561/1114938121147129856))
+* **[2D FFT of the cloud as suggested by kate](https://discord.com/channels/1066055437457297469/1114065866997370900/1114081315533377587)**
+* **[Mouse by BatchDrake](https://discord.com/channels/1066055437457297469/1113919686640406578/1113924669070901420)**
+* **[Discussion on other asterisms](https://discord.com/channels/1066055437457297469/1113922788395319456)**
+
 ### Non-picture based interpretations
-* TBD
+* **[TheVoroscope's theory on timing sub-structure](https://discord.com/channels/1066055437457297469/1114029303341006849/1114029308286079047)**
+* **[Serial protocol by xenoisx](https://discord.com/channels/1066055437457297469/1115209108245717032)
+
+### Other
+* **[TheVoroscope's Back to Basics (what's going on?)](https://discord.com/channels/1066055437457297469/1114409536598581298/1114409540360867891)**
+* **[Borna Cesarec's theory of delimiters](https://discord.com/channels/1066055437457297469/1111404329694400542/1114091836181581844)**
+* **[Physical constants / keys by mchai](https://discord.com/channels/1066055437457297469/1114030579231494204/1114031417857409044)**
+* **[Header / footer analysis by several people](https://discord.com/channels/1066055437457297469/1113883543140044851/1113888584471171194)**
