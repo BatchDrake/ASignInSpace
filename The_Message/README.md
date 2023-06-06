@@ -5,7 +5,7 @@ A preliminary analysis, including a potential representation as a picture, [can 
 
 <p align="center">
   <img src="../Candidates/visual/original_square.png" /><br />
-  <sup>Candidate message, represented as a 256x256 picture.</sup>
+  <sup>Candidate representation of the message, represented as a 256x256 picture.</sup>
 </p>
 
 The big question therefore remains: **what does it mean?**
