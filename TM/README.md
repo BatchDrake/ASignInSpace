@@ -1,6 +1,6 @@
 # Link layer (TM)
 ## From symbols to bits
-The demodulated soft symbols of the BPSK subcarrier were passed to [ccsds-tool](tools/ccsds-tc) in guess mode, with a sync SNR of 15 dB (this is a tool-specific value used to define a threshold for detection of ASM sequences). The tool reported a CCSDS turbocode at rate 1/2 in the Q channel, with a frame length of 8920 bits:
+The demodulated soft symbols of the BPSK subcarrier were passed to [ccsds-tool](https://github.com/BatchDrake/ccsds-tc/tree/791a6638092445816147c99b3406b56f36827e86) in guess mode, with a sync SNR of 15 dB (this is a tool-specific value used to define a threshold for detection of ASM sequences). The tool reported a CCSDS turbocode at rate 1/2 in the Q channel, with a frame length of 8920 bits:
 
 ```
 $ ccsds-tool -g channel-capture-PM-52639-baud-0001.raw -S 15 
